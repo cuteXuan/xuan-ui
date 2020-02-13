@@ -1,29 +1,22 @@
-# xuan-ui
+- 初始化vue项目
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+vue create demo
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+- 安装组件库
+
+```js
+yarn add xuan-ui
 ```
 
-### Run your tests
-```
-npm run test
+- 全局导入
+
+```js
+import XuanUI from 'xuan-ui'
+import 'xuan-ui/lib/xuan-ui.css'
+
+Vue.use(XuanUI)
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 使用组件
